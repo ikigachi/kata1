@@ -1,4 +1,4 @@
-package software.ulpgv.katas;
+package software.ulpgc.katas;
 
 import java.time.LocalDate;
 

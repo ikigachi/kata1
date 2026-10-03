@@ -4,10 +4,11 @@ out/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
-.class
-.jar
+*.class
+*.jar
 
 ### IntelliJ IDEA ###
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
