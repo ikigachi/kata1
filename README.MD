@@ -75,13 +75,15 @@ mvn exec:java
 
 ## Video
 
-
+[![Kata 1 - Video Explanation](https://img.youtube.com/vi/pdYwJjdA4Qg/maxresdefault.jpg?v=2)](https://youtu.be/pdYwJjdA4Qg)
 
 ## Shortcuts
 
-- `Alt + Enter`: Show quick fixes and intention actions.
+- `Ctrl + N`: Quickly search for and open a class in the project by typing its name.
+- `Ctrl + Alt + L`: Automatically format code by adjusting indentation, spaces, and line breaks according to code style rules.
+- `Shift + F6`: Rename classes, methods, or variables using refactoring, automatically updating all references.
+- `Alt + Enter`: Show quick fixes and suggested actions to correct errors, import classes, simplify expressions, or improve code.
 - `Alt + Insert`: Generate code such as constructors, getters, setters, and other class members.
-- `Shift + F6`: Rename a class, method, variable, or package using refactoring.
-- `Ctrl + F8`: Add or remove a breakpoint.
-- `Alt + 9`: Open the Git tool window.
-- `Alt + F12`: Open the embedded terminal.
+- `Alt + 9`: Open the Git tool window to view changes, commits, and history.
+- `Alt + F12`: Open the integrated terminal to execute commands.
+- `Alt + 4`: Open the Run tool window to view program output and execution results.
