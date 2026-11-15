@@ -29,14 +29,11 @@ The Java source is in `src/main/java/software/ulpgc/katas`. Each branch contains
 
 | Branch | Domain class | Example |
 | --- | --- | --- |
-| [`develop`](https://github.com/ikigachi/kata1/tree/develop) | `Person` | Calculates a person's age from their date of birth. |
 | [`book-version`](https://github.com/ikigachi/kata1/tree/book-version) | `Book` | Prints a book's title and page count and checks whether it has more than 300 pages. |
 | [`student-version`](https://github.com/ikigachi/kata1/tree/student-version) | `Student` | Calculates a student's average grade and checks whether they passed. |
 | [`task-version`](https://github.com/ikigachi/kata1/tree/task-version) | `Task` | Prints a task's status and checks whether it is complete. |
 
 ## Git Workflow
-
-`develop` contains the `Person` version. The other branches contain independent variations of the same exercise.
 
 The usual workflow was:
 
@@ -51,7 +48,7 @@ git push
 To verify that the project works outside the original folder, the repository can be cloned with:
 
 ```
-git clone --branch develop https://github.com/ikigachi/kata1.git
+git clone https://github.com/ikigachi/kata1.git
 ```
 
 Then:
